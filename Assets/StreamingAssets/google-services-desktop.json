@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "408093507342",
+    "firebase_url": "https://tham-khao-1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tham-khao-1",
+    "storage_bucket": "tham-khao-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408093507342:android:198d2d019ed4d6738da15f",
+        "android_client_info": {
+          "package_name": "com.Truc24521868.NongTrai2D"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408093507342-ac2arp2i42fntk1519clo3htn1mm4ojp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv5jClmdjX-93Y6hBB6rVofHifhT2PT9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408093507342-ac2arp2i42fntk1519clo3htn1mm4ojp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
