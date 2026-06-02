@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}</ProjectGuid>
+    <ProjectGuid>{8FFF2D2D-9D03-EA31-FE87-D19AF6E8C5EB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,6 +61,8 @@
     <Analyzer Include="E:\Download software\unityDownload\6000.3.11f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerFarm.cs" />
+    <Compile Include="Assets\Scripts\Chuot_DiChuyen_Player.cs" />
     <Compile Include="Assets\Scripts\PlayerDiChuyen.cs" />
   </ItemGroup>
   <ItemGroup>
