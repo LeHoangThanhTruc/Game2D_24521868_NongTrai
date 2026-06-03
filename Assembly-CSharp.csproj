@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\RecyclableScrollerDemo.cs" />
+    <Compile Include="Assets\Scripts\FirebaseLoginManager.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\HorizontalRecyclingSystem.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\VerticalRecyclingSystem.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryManger.cs" />

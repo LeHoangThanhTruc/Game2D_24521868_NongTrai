@@ -25,7 +25,7 @@ public class FirebaseDatabaseManager : MonoBehaviour
     //Hàm ghi dữ liệu vào Firebase Realtime Database
     public void WriteDatabase(string id,string message)
     {
-          reference.Child(pathString: "Users").Child(id).SetValueAsync(message).ContinueWithOnMainThread(task =>
+          reference.Child(pathString: "User").Child(id).SetValueAsync(message).ContinueWithOnMainThread(task =>
           {
               if (task.IsCompleted)
               {
@@ -40,7 +40,7 @@ public class FirebaseDatabaseManager : MonoBehaviour
     //Hàm đọc dữ liệu từ Firebase Realtime Database
     public void ReadDatabase(string id)
     {
-        reference.Child(pathString: "Users").Child(id).GetValueAsync().ContinueWithOnMainThread(task =>
+        reference.Child(pathString: "User").Child(id).GetValueAsync().ContinueWithOnMainThread(task =>
         {
             if (task.IsCompleted)
             {
